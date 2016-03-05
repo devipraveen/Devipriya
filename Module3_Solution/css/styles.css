@@ -110,7 +110,7 @@ a.col-xs-12{
 @media (max-width: 767px) {
   .sBody {
     position : relative;
-    height: 500px;
+    height: 1000px;
     width:75%;
     overflow: auto;
     border: 3px solid black; 
