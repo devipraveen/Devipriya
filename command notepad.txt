@@ -1,0 +1,89 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\home>chrome.exe --allow-file-access-from-files
+'chrome.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\home>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C263-3156
+
+ Directory of C:\Users\home
+
+03/10/2016  06:57 PM    <DIR>          .
+03/10/2016  06:57 PM    <DIR>          ..
+03/06/2016  07:12 PM    <DIR>          .dnx
+02/02/2016  11:27 PM    <DIR>          .eclipse
+02/21/2016  09:22 PM                61 .gitconfig
+02/24/2016  11:52 PM                 0 .node_repl_history
+01/19/2016  11:42 PM    <DIR>          .oracle_jre_usage
+02/02/2016  10:21 PM    <DIR>          .p2
+01/21/2016  03:59 PM    <DIR>          .tooling
+11/29/2015  10:30 PM    <DIR>          Contacts
+02/29/2016  04:04 PM    <DIR>          Desktop
+03/10/2016  07:00 PM    <DIR>          Devipriya
+03/06/2016  06:58 PM    <DIR>          Documents
+01/18/2016  10:28 PM    <DIR>          Downloads
+01/19/2016  11:37 PM    <DIR>          Favorites
+03/10/2016  06:59 PM    <DIR>          fullstack-course4
+11/29/2015  10:30 PM    <DIR>          Links
+02/07/2016  11:21 PM    <DIR>          Music
+02/07/2016  11:27 PM    <DIR>          Pictures
+11/29/2015  10:30 PM    <DIR>          Saved Games
+11/29/2015  10:30 PM    <DIR>          Searches
+11/29/2015  10:30 PM    <DIR>          Videos
+               2 File(s)             61 bytes
+              20 Dir(s)  67,139,375,104 bytes free
+
+C:\Users\home>devipriya
+'devipriya' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\home>cd devipriya
+
+C:\Users\home\Devipriya>cd module4_solution
+
+C:\Users\home\Devipriya\Module4_Solution>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C263-3156
+
+ Directory of C:\Users\home\Devipriya\Module4_Solution
+
+03/10/2016  07:00 PM    <DIR>          .
+03/10/2016  07:00 PM    <DIR>          ..
+03/10/2016  07:00 PM    <DIR>          module4-solution-starter
+               0 File(s)              0 bytes
+               3 Dir(s)  67,139,375,104 bytes free
+
+C:\Users\home\Devipriya\Module4_Solution>cd module4-solution-starter
+
+C:\Users\home\Devipriya\Module4_Solution\module4-solution-starter>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C263-3156
+
+ Directory of C:\Users\home\Devipriya\Module4_Solution\module4-solution-starter
+
+03/10/2016  07:00 PM    <DIR>          .
+03/10/2016  07:00 PM    <DIR>          ..
+03/10/2016  07:00 PM    <DIR>          css
+03/10/2016  07:00 PM    <DIR>          fonts
+03/10/2016  07:00 PM    <DIR>          images
+03/10/2016  06:59 PM             4,416 index.html
+03/10/2016  07:00 PM    <DIR>          js
+03/10/2016  07:00 PM    <DIR>          snippets
+               1 File(s)          4,416 bytes
+               7 Dir(s)  67,139,375,104 bytes free
+
+C:\Users\home\Devipriya\Module4_Solution\module4-solution-starter>browser-sync start --server --directory --files "*\**"
+[BS] Access URLs:
+ ------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.1.7:3000
+ ------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.1.7:3001
+ ------------------------------------
+[BS] Serving files from: ./
+[BS] Watching files...
+browser-sync start --server --directory --files "*\**"
